@@ -1,6 +1,13 @@
 # HKU-DASC7606-A2
 HKU DASC-7606 Assignment 2 NLP: Machine Reading Comprehension
 
+**For questions and discussion**,
+- We encourage you to use [GitHub Issues](https://github.com/ilnehc96/HKU-DASC7606-A2/issues) of this repository.
+- Or if you prefer online doc: [Discussion doc](https://connecthkuhk-my.sharepoint.com/:w:/g/personal/ilnehc_connect_hku_hk/EXP4PuxeMPZFtuZwbhkltLcBd55Un8CENtFojxV60JU-Gw?e=AapZoz).
+
+This codebase is only for HKU DASC 7606 (2022-2023) course. Please don't upload your answers or this codebase to any public platforms (e.g., GitHub) before permitted. All rights reserved.
+
+
 ## 1 Introduction
 
 ### 1.1 What is Machine Reading Comprehension?
@@ -105,7 +112,7 @@ The code structure is as follows:
 python main.py --train_file dataset/train.json --predict_file dataset/valid.json --model_type bert --model_name_or_path bert-base-uncased  --output_dir output/ --version_2_with_negative --do_train --do_eval  --do_lower_case --overwrite_output --save_steps 0
 ```
 
-Ps. Note that we are using SQuAD version 2.0, `--version_2_with_negative` argument is necessary.
+Ps. Note that we are using SQuAD version 2.0, `--version_2_with_negative` argument is necessary. Please find descriptions and functions of arguments in the script.
 
 #### Evaluation
 
@@ -113,7 +120,7 @@ Ps. Note that we are using SQuAD version 2.0, `--version_2_with_negative` argume
 python main.py --train_file dataset/train.json --predict_file dataset/test.json --model_type bert --model_name_or_path output/  --output_dir output/eval/ --version_2_with_negative --do_eval --do_lower_case
 ```
 
-
+Ps. The argument `model_name_or_path` here should be the ourput saving directory in training to load saved checkpoint, and `output_dir` is the directory to save evaluation results.
 
 
 
@@ -174,7 +181,7 @@ You are required to improve the baseline model with your own configuration. Ther
 + Hyper-parameter tuning.
 There are lots of important hyper-parameters.
   + About optimizer: learning rate, batch size, warm-up and training epochs, etc.
-  + About embedding: Add input type embedding to indicate different parts of inputs.
+  + About embedding: add input type embedding to indicate different parts of inputs.
 
 + Different neural network architectures for predicting the span.
 You may choose a more advanced neural network architecture and design your own customized neural network for predicting the answer span.
@@ -188,6 +195,7 @@ You may add label smoothing or other tricks or come up with a new loss function 
 ### 3.5 Files to submit (4 items in total)
 
 1.  Prepare a final report in PDF format (no more than 4 pages)
+
     1.1 Introduction. Briefly introduce the task & background & related works.
 
     1.2 Methods. Describe what you did to improve the baseline model performance. For example, this may include but is not limited to: (i) Hyper-parameter tuning, e.g. learning rate, batch size, and training epochs. (ii) Different neural network architectures. (iii) Loss functions. 
@@ -236,7 +244,11 @@ Late submission policy:
 
 ### 3.7 Need More Support?
 
-For any questions about the assignment, please contact Li Chen (ilnehc@connect.hku.hk) and Xueliang Zhao (xlzhao22@connect.hku.hk) via email.
+For any questions about the assignment which potentially are common to all students, your shall first look for related resources as follows,
+- We encourage you to use [GitHub Issues](https://github.com/ilnehc96/HKU-DASC7606-A2/issues) of this repository.
+- Or if you prefer online doc: [Discussion doc](https://connecthkuhk-my.sharepoint.com/:w:/g/personal/ilnehc_connect_hku_hk/EXP4PuxeMPZFtuZwbhkltLcBd55Un8CENtFojxV60JU-Gw?e=AapZoz).
+
+For any other private questions, please contact Li Chen (ilnehc@connect.hku.hk) and Xueliang Zhao (xlzhao22@connect.hku.hk) via email.
 
 ## 4 Marking Scheme:
 
