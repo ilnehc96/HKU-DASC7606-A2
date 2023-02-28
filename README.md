@@ -130,13 +130,13 @@ We have provided an almost-complete code for the BERT model. Please complete the
 
 **Task 4: Implement the data preprocessing function**
 
-This function is responsible for converting the raw dataset into the required format for training the model. You will need to understand the preprocessing steps needed for the Machine Reading Comprehension task and use them to complete the code in the places tagged with `Write Your Code Here` in utils_squad.py.
+This function is responsible for converting the raw dataset into the required format for training the model. You will need to understand the preprocessing steps needed for the Machine Reading Comprehension task and use them to complete the code in the places tagged with `Write Your Code Here` in [utils_squad.py](https://github.com/ilnehc96/HKU-DASC7606-A2/blob/main/utils_squad.py).
 
 **Task 5: Implement the training pipeline**
 
 **Task 6: Implement the validation pipeline**
 
-We have provided an almost-complete code for fine-tuning and evaluating the BERT on the QA task. Please complete the code in the places tagged with  `Write Your Code Here` in main.py to adapt BERT for our own interest.
+We have provided an almost-complete code for fine-tuning and evaluating the BERT on the QA task. Please complete the code in the places tagged with  `Write Your Code Here` in [main.py](https://github.com/ilnehc96/HKU-DASC7606-A2/blob/main/main.py) to adapt BERT for our own interest.
 
 **Task 7: Predict the outputs of the test set**
 
