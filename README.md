@@ -3,7 +3,7 @@ HKU DASC-7606 Assignment 2 NLP: Machine Reading Comprehension
 
 ## 1 Introduction
 
-### 1.1 What is Open-domain Question Answering?
+### 1.1 What is Machine Reading Comprehension?
 Open-domain Question Answering (ODQA) is a type of natural language processing task, which asks a model to produce answers to factoid questions posed in natural language. Open-domain means that the question is not limited to a specific domain but could be anything about real-world knowledge and common sense. Based on whether external context and background are provided to help answer the question, there are two types of question answering, namely **Open-book QA** and **Closed-book QA**. In Open-book QA, the system is equipped with an abundant knowledge base to refer to, while a Closed-book QA system has to memorize all the world knowledge in its parameter. Usually, a standard Open-book QA system works in a two-step pipeline: First, a retriever scans the external knowledge base to filter related context, and then a reader is responsible for extracting or generating the answer according to the retrieved context. In this assignment, we focus on a simpler case in Open-book QA where the relevant document is provided. It is also called **Machine Reading Comprehension (MRC)** in some literature.
 
 ### 1.2 What will you learn from this assignment?
