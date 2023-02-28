@@ -222,7 +222,7 @@ If your student id is 12345, then the file should be organized as follows:
 
 ### 3.6 When to submit?
 
-The deadline is Mar 31 (Fri).
+The deadline is Apr 7 (Fri).
 
 Late submission policy:
 
