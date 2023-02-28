@@ -125,7 +125,7 @@ python main.py --train_file dataset/train.json --predict_file dataset/test.json 
 
 **Task 3: Implement the feed-forward layer**
 
-We have provided an almost-complete code for the BERT model. Please complete the code in the places tagged with  `Write Your Code Here` in modeling_bert.py.
+We have provided an almost-complete code for the BERT model. Please complete the code in the places tagged with  `Write Your Code Here` in [modeling_bert.py](https://github.com/ilnehc96/HKU-DASC7606-A2/blob/main/modeling_bert.py).
 
 
 **Task 4: Implement the data preprocessing function**
